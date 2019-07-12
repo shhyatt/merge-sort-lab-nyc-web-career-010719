@@ -1,4 +1,4 @@
 function findMinAndRemoveSorted(array) {
- let min = array.shift
+ return array.shift
   
 }

@@ -2,10 +2,10 @@ function findMinAndRemoveSorted(array) {
  return array.shift()
 }
 
-function merge(array1, array2) {
+function merge(arrayOne, array2) {
   let sorted = [];
   let currentMin;
-  while(array1.length != 0 && array2.length != 0){
+  while(arrayOne.length != 0 && arrayTwo.length != 0){
     if(array1[0] < array2[0]){
       sorted.push(findMinAndRemoveSorted(array1))
     }else{

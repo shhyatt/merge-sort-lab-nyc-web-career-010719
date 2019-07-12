@@ -5,7 +5,7 @@ function findMinAndRemoveSorted(array) {
 function merge(array1, array2) {
   let sorted = 
   let currentMin;
-  while()
+  while(array1.length !== 0 && array2 !==0)
   
   
   }

@@ -9,7 +9,7 @@ function merge(arrayOne, arrayTwo) {
     if(arrayOne[0] < arrayTwo[0]){
       sorted.push(findMinAndRemoveSorted(arrayOne))
     }else{
-      sorted.push(finsMinAndRemoveSorted(arrayTwo))
+      sorted.push(findMinAndRemoveSorted(arrayTwo))
     }
       
     }

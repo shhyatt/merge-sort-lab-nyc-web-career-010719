@@ -20,8 +20,10 @@ function mergeSort(array){
   let mid = array.length/2 
   let firstHalf = array.slice
   let secondHalf = array.slice(mid, length)
-  if(array.length === 1){
+  if(array.length < 2){
     return array
+  }else{
+    merge(mergeSort(firstHalf))
   }
   
 }  

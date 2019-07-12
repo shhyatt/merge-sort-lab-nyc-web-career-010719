@@ -18,7 +18,7 @@ function merge(arrayOne, arrayTwo) {
   
 function mergeSort(array){
   let mid = array.length/2 
-  let firstHalf = array.splice()
+  let firstHalf = array.slice()
   
 }  
   

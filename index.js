@@ -13,7 +13,7 @@ function merge(array1, array2) {
     }
       
     }
-    return sor
+    return sorted.concat(array1)
     
   }
   

@@ -3,5 +3,6 @@ function findMinAndRemoveSorted(array) {
 }
 
 function merge(array1, array2) {
+  let sorted = []
   
   }

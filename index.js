@@ -25,8 +25,9 @@ function mergeSort(array){
   if(array.length < 2){
     return array
   }else{
-    merge(mergeSort(firstHalf), mergeSort(secondHalf))
+    sorted = merge(mergeSort(firstHalf), mergeSort(secondHalf))
   }
+  return sorted
   
 }  
   
